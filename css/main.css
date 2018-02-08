@@ -1,0 +1,68 @@
+
+header{
+  width:100%;
+  height:35%;
+  background-image: url("images/5.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+/*********introduction********/
+main .intro{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 18px;
+}
+
+/************* footer ************************/
+footer{
+  clear: both;
+  width: 100%;
+  margin-top:50%;
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+footer a{
+  color:white;
+}
+
+/*******navigator*******/
+nav{
+  clear:both;
+  border-style: solid;
+  border-color: purple;
+  background-color: #adad85;
+  font-family: 'Gloria Hallelujah', sans;
+  font-size: 18px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 6px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+  background-color: purple;
+}
+
+body{
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}

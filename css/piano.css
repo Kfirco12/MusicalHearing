@@ -1,0 +1,46 @@
+/********piano********/
+.piano ul {
+  background-color:#222;
+	height:42%;
+  width:58%;
+  margin:0 auto;
+  padding:2% 0% 0 10%;
+  border:1px solid #160801;
+  border-radius:10px;
+}
+
+.piano button {
+  list-style:none;
+  position:relative;
+  float:left;
+  outline:none;
+}
+
+.piano .white {
+	height:95%;
+  width:11%;
+	border-left:1px solid #bbb;
+	border-bottom:1px solid #bbb;
+	border-radius:0 0 5px 5px;
+	background-color: #eeebbb;
+}
+
+.piano .black {
+	height:48%; width:6%; margin:0 0 0 -1em; z-index:2;
+	border:1px solid #000;
+	border-radius:0 0 3px 3px;
+	box-shadow:-1px -1px 2px rgba(255,255,255,0.2) inset, 0 -5px 2px 3px rgba(0,0,0,0.6) inset, 0 2px 4px rgba(0,0,0,0.5);
+	background:linear-gradient(45deg, #222 0%,#555 100%);
+}
+
+.piano .a,.g,.d,.c,.e,.b {
+  margin:0 0 0 -3.55%;
+}
+
+.piano .f,.cc
+{
+  margin:0 0 0 0.25%;
+}
+
+.piano ul button:first-child { border-radius:5px 0 5px 5px; }
+.piano ul button:last-child { border-radius:0 5px 5px 5px; }
